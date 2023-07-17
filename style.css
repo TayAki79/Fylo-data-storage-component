@@ -35,6 +35,25 @@ body {
   height: 666px;
   background-image: url(./images/bg-mobile.png);
   background-repeat: no-repeat;
+  background-color: var(--very-dark-blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  width: 335px;
+  height: 220px;
+  margin-bottom: 20px;
+  padding: 40px;
+  background-color: var(--dark-blue);
+  border-radius: 10px 100px 10px 10px;
+}
+
+.storage-status {
+  width: 335px;
+  height: 200px;
   background-color: var(--dark-blue);
 }
 
