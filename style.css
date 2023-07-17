@@ -1,6 +1,6 @@
 :root {
   /* Colors */
-  --gradient: linear-gradient(to left, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+  --gradient: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
   --pale-blue: hsl(243, 100%, 93%);
   --gray-blue: hsl(229, 7%, 55%);
   --dark-blue: hsl(228, 56%, 26%);
@@ -107,7 +107,7 @@ p, .numbers-scale {
 /* Graphical scale */
 .outer-scale {
   width: 270px;
-  height: 20px;
+  height: 18px;
   background-color: hsl(228, 68%, 21%);
   border-radius: 50px;
   display: flex;
@@ -116,12 +116,25 @@ p, .numbers-scale {
 
 .inner-scale {
   width: 81.5%;
-  height: 15px;
+  height: 13px;
   margin-left: 3px;
   background: var(--gradient);
   border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
 }
 
+.dot {
+  width: 10px;
+  height: 10px;
+  margin-right: 2px;
+  border-radius: 50%;
+  border: none;
+  background-color: white;
+}
+
+/* Footer */
 
 .attribution {
   font-size: 11px;
