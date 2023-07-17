@@ -88,6 +88,7 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 /* Paragraph Element */
@@ -140,6 +141,30 @@ p, .numbers-scale {
   font-size: 0.8rem;
   display: flex;
   justify-content: space-between;
+}
+
+.remainder {
+  width: 180px;
+  height: 75px;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  top: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.remainder-number {
+  font-size: 2.2rem;
+  font-weight: var(--700-fw);
+}
+
+.gb-left {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-left: 10px;
+  color: var(--gray-blue);
 }
 
 /* Footer */
