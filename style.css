@@ -80,10 +80,10 @@ li {
 /* Storage container */
 .storage-status {
   width: 325px;
-  height: 140px;
+  height: 160px;
   background-color: var(--dark-blue);
   border-radius: 10px;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -93,7 +93,7 @@ li {
 /* Paragraph Element */
 p {
   font-size: var(--main-fs);
-  margin: 15px;
+  margin-bottom: 15px;
 }
 
 .used {
@@ -112,6 +112,7 @@ p, .numbers-scale {
   border-radius: 50px;
   display: flex;
   align-items: center;
+  margin-bottom: 8px;
 }
 
 .inner-scale {
@@ -132,6 +133,13 @@ p, .numbers-scale {
   border-radius: 50%;
   border: none;
   background-color: white;
+}
+
+.numbers-scale {
+  width: 270px;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Footer */
