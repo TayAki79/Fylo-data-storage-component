@@ -200,7 +200,9 @@ p, .numbers-scale {
     width: 455px;
     height: 270px;
     margin-bottom: 0;
+    margin-right: 40px;
     padding: 50px;
+    border-radius: 12px 100px 12px 12px;
   }
 
   .info > img {
@@ -220,6 +222,17 @@ p, .numbers-scale {
 
   li img {
     width: 40%;
+  }
+
+  /* Storage container */
+  .storage-status {
+    width: 700px;
+    height: 210px;
+    border-radius: 12px;
+    margin-top: 60px;
+    margin-bottom: 0;
+    align-items: start;
+    padding: 50px;
   }
 }
 
