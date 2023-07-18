@@ -10,7 +10,7 @@
   --main-fs: 14px;
   --400-fw: 400;
   --700-fw: 700;
-  --font-fam: 'Raleway', sans-serif;
+  --font-fam: "Raleway", sans-serif;
 }
 
 /* Global Styles */
@@ -101,7 +101,8 @@ p {
   font-weight: var(--700-fw);
 }
 
-p, .numbers-scale {
+p,
+.numbers-scale {
   color: var(--pale-blue);
 }
 
@@ -168,7 +169,6 @@ p, .numbers-scale {
   margin-left: 10px;
   color: var(--gray-blue);
 }
-
 
 /* Desktop Version */
 
