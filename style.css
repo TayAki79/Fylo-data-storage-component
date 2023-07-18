@@ -136,6 +136,7 @@ p, .numbers-scale {
   background-color: white;
 }
 
+/* Numbers scale */
 .numbers-scale {
   width: 270px;
   font-size: 0.8rem;
@@ -143,6 +144,7 @@ p, .numbers-scale {
   justify-content: space-between;
 }
 
+/* Remainder info bubble */
 .remainder {
   width: 180px;
   height: 75px;
@@ -243,6 +245,25 @@ p, .numbers-scale {
 
   .used {
     font-weight: var(--700-fw);
+  }
+
+  /* Graphical scale */
+  .outer-scale {
+    width: 600px;
+    height: 25px;
+  }
+
+  .inner-scale {
+    width: 81.5%;
+    height: 18px;
+    margin-left: 4px;
+  }
+
+  .dot {
+    width: 12px;
+    height: 12px;
+    margin-right: 2.5px;
+    border-radius: 50%;
   }
 }
 
