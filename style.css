@@ -232,7 +232,17 @@ p, .numbers-scale {
     margin-top: 60px;
     margin-bottom: 0;
     align-items: start;
-    padding: 50px;
+    padding: 0 50px 50px 50px;
+  }
+
+  /* Paragraph Element */
+  p {
+    font-size: 1.1rem;
+    margin-bottom: 21px;
+  }
+
+  .used {
+    font-weight: var(--700-fw);
   }
 }
 
