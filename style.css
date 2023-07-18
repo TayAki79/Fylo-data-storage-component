@@ -234,7 +234,7 @@ p, .numbers-scale {
     margin-top: 60px;
     margin-bottom: 0;
     align-items: start;
-    padding: 0 50px 50px 50px;
+    padding: 50px;
   }
 
   /* Paragraph Element */
@@ -264,6 +264,12 @@ p, .numbers-scale {
     height: 12px;
     margin-right: 2.5px;
     border-radius: 50%;
+  }
+
+  /* Numbers scale */
+  .numbers-scale {
+    width: 600px;
+    font-size: 1.12rem;
   }
 }
 
